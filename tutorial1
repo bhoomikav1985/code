@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+    void fn (int min ,int max)
+     {
+        for (int x= min ; x<= max ; ++x)
+        {
+            std::cout<< x <<""<< std::endl;
+        }
+    }
+int main()
+ {
+     fn(2,5);
+    // Write C++ code here
+    std::cout << "print range between 10-15"<<std::endl;
+    fn(37,90);
+    std::cout <<"print range between 1-100"<<std::endl;
+    fn(1,300);
+        std::cout <<"print range between 1-300"<<std::endl;
+
+    return 0;
+}
