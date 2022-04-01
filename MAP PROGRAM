@@ -1,0 +1,24 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <map>
+void fn ( )
+{
+    std::map<int,std::string> M;
+    M[0]="FAT";
+    M[1]="CAT";
+    M[2]="RAT";
+    for (auto E:M)
+    {
+        std::cout <<E.first<<" "<<E.second <<std::endl;
+    }
+}
+
+
+int main()
+{
+    // Write C++ code here
+    std::cout << "RHYMING WORDS" <<std::endl;
+     fn ( );
+    
+    return 0;
+}
